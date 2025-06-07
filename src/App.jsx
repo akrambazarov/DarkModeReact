@@ -9,9 +9,9 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path='/products' element={<Suspense fallback = {<div><Preloader/></div>}><Home/></Suspense>} />
+          <Route index element={<Suspense fallback = {<div><Preloader/></div>}><Home/></Suspense>} />
           <Route path="pricing" element={<Suspense fallback = {<div><Preloader/></div>}><Pricing/></Suspense>} />
-          <Route index element={<Suspense fallback = {<div><Preloader/></div>}><Products/></Suspense>} />
+          <Route path='products' element={<Suspense fallback = {<div><Preloader/></div>}><Products/></Suspense>} />
           <Route path="resources" element={<Suspense fallback = {<div><Preloader/></div>}><Resources/></Suspense>} />
           <Route path="customer" element={<Suspense fallback = {<div><Preloader/></div>}><Customer/></Suspense>} />
         </Route>
