@@ -1,0 +1,14 @@
+export { default as Microsoft } from './Microsoft';
+export { default as Google } from './Google';
+export { default as Airbnb } from './Airbnb';
+export { default as FedEx } from './FedEx';
+export { default as Accademy } from './accademy';
+export { default as Accounts } from './Accounts';
+export { default as Done } from './Done';
+export { default as Heart } from './Heart';
+export { default as Link } from './Link';
+export { default as Logo } from './Logo';
+export { default as IconsNotFound } from './NotFoundsIcon';
+export { default as Pause } from './Pause';
+export { default as Cursor } from './Cursor';
+export { default as Time } from './Time';
